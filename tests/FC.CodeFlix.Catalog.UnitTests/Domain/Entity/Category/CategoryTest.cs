@@ -30,6 +30,8 @@ public class CategoryTest
         Assert.True(category.CreatedAt > datetimeBefore);
         Assert.True(category.CreatedAt < datetimeAfter);
         Assert.True(category.IsActive);
+        Assert.True(category.IsActive);
+
 
     }
 
